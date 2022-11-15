@@ -27,19 +27,6 @@ public class FloatMaxUC2 {
                 return max;                     //returns the largest object
 
             }
-
-            public static String testMaximum(String x, String y, String z) {
-                String max = x;
-                if (y.compareTo(max) > 0) {
-                    max = y;
-                }
-                if (z.compareTo(max) > 0) {
-                    max = z;
-                }
-                printMax(x, y, z, max);
-                return max;
-            }
-
             private static <T extends Comparable<T>> void printMax(T x, T y, T z, T max) {
                 System.out.printf("Max of %s,%s and %s is %s\n", x, y, z, max);
             }

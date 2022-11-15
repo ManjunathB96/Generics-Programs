@@ -15,19 +15,6 @@ public class StringMaxUC3 {
         }
 
         //determine the largest of three comparable objects
-        private static <T extends Comparable<T>> T maximum(T x, T y, T z) {
-            T max = x;                         // assume x is initially the largest
-            if (y.compareTo(max) > 0) {
-                max = y;                        // Y is the largest so far
-            }
-            if (z.compareTo(max) > 0) {
-                max = z;                    // z IS THE LARGEST NOW
-            }
-            printMax(x, y, z, max);
-            return max;                     //returns the largest object
-
-        }
-
         public static String testMaximum(String x, String y, String z) {
             String max = x;
             if (y.compareTo(max) > 0) {
