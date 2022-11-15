@@ -1,4 +1,4 @@
-package com.bridgelabz.gnerics.UC.Maximum;
+package com.generics;
 
 public class StringMaxUC3 {
     public static class MaximumTest<T extends Comparable<T>> {
@@ -11,7 +11,7 @@ public class StringMaxUC3 {
         }
 
         public T maximum() {
-            return (T) com.bridgelabz.gnerics.UC.Maximum.MaximumTest.maximum(x, y, z);
+            return (T) com.generics.MaximumTest.maximum(x, y, z);
         }
 
         //determine the largest of three comparable objects
@@ -36,7 +36,7 @@ public class StringMaxUC3 {
 
             System.out.println();
             System.out.println("Given Three String value  Maximum is");   //UC 3: Maximum among String values
-            new com.bridgelabz.gnerics.UC.Maximum.MaximumTest(xStr,yStr,zStr).maximum();
+            new com.generics.MaximumTest(xStr,yStr,zStr).maximum();
         }
     }
 }

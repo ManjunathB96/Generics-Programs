@@ -1,4 +1,4 @@
-package com.bridgelabz.gnerics.UC.Maximum;
+package com.generics;
 
 public class FloatMaxUC2 {
     public static class MaximumTest<T extends Comparable<T>> {
@@ -11,7 +11,7 @@ public class FloatMaxUC2 {
             }
 
             public T maximum() {
-                return (T) com.bridgelabz.gnerics.UC.Maximum.MaximumTest.maximum(x, y, z);
+                return (T) com.generics.MaximumTest.maximum(x, y, z);
             }
 
             //determine the largest of three comparable objects
@@ -36,7 +36,7 @@ public class FloatMaxUC2 {
 
                 System.out.println();
                 System.out.println("Given Three Float value  Maximum is");    //UC 2: Maximum among float values
-                new com.bridgelabz.gnerics.UC.Maximum.MaximumTest(xFl,yFl,zFl).maximum();
+                new com.generics.MaximumTest(xFl,yFl,zFl).maximum();
 
             }
         }

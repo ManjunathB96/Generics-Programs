@@ -1,4 +1,4 @@
-package com.bridgelabz.gnerics.UC.Maximum;
+package com.generics;
 
 public class MaximumTest < T extends Comparable<T>> {
     T x,y,z;

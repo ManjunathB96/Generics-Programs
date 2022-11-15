@@ -1,4 +1,4 @@
-package com.bridgelabz.UCPrograms;
+package com.printArray;
 
 public class PrintArrayWithOutGenerics {
 
@@ -42,10 +42,10 @@ public class PrintArrayWithOutGenerics {
         Character[] characters ={'@', '$', '*'};
         String[] strings = {"Manjunath S Belagavi"} ;
 
-       com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(integers);                // toPrint(integers);
-        com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(doubles);                //toPrint(doubles);
-        com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(characters);            //toPrint(characters);
-        com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(strings);               // toPrint(strings);
+       PrintArrayWithOutGenerics.toPrint(integers);                // toPrint(integers);
+        PrintArrayWithOutGenerics.toPrint(doubles);                //toPrint(doubles);
+        PrintArrayWithOutGenerics.toPrint(characters);            //toPrint(characters);
+        PrintArrayWithOutGenerics.toPrint(strings);               // toPrint(strings);
 
 
     }

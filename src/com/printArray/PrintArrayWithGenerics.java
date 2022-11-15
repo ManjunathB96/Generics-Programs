@@ -1,4 +1,4 @@
-package com.bridgelabz.UCPrograms;
+package com.printArray;
 
 public class PrintArrayWithGenerics{
     public static <E> void toPrint(E[] inputArray) {
@@ -15,9 +15,9 @@ public class PrintArrayWithGenerics{
         String[] stringArray = {"Manjunath","Sdaashiv","Belagavi"};
 
         PrintArrayWithGenerics.toPrint(intArray);                              //toPrint(intArray);
-        com.bridgelabz.UCPrograms.PrintArrayWithGenerics.toPrint(doubleArray);
-        com.bridgelabz.UCPrograms.PrintArrayWithGenerics.toPrint(charArray);
-        com.bridgelabz.UCPrograms.PrintArrayWithGenerics.toPrint(stringArray);
+        PrintArrayWithGenerics.toPrint(doubleArray);
+        PrintArrayWithGenerics.toPrint(charArray);
+        PrintArrayWithGenerics.toPrint(stringArray);
     }
 
 }

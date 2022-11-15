@@ -1,4 +1,4 @@
-package com.bridgelabz.gnerics.UC.Maximum;
+package com.generics;
 
 public class IntegersMaxUC1 {
 
@@ -12,7 +12,7 @@ public class IntegersMaxUC1 {
         }
 
         public T maximum() {
-            return (T) com.bridgelabz.gnerics.UC.Maximum.MaximumTest.maximum(x, y, z);
+            return (T) com.generics.MaximumTest.maximum(x, y, z);
         }
 
         //determine the largest of three comparable objects
@@ -37,7 +37,7 @@ public class IntegersMaxUC1 {
 
             System.out.println();
             System.out.println("Given Three Integer value  Maximum is");    //UC 1: Maximum among integer values
-            new com.bridgelabz.gnerics.UC.Maximum.MaximumTest(xInt, yInt, zInt).maximum();
+            new com.generics.MaximumTest(xInt, yInt, zInt).maximum();
 
         }
     }
