@@ -1,6 +1,9 @@
 package com.bridgelabz.UCPrograms;
 
-public class PrintArrayUC1 {
+public class PrintArrayWithOutGenerics {
+
+    //Compile Time Polymorphism
+    //Method Overloading : same method name but different parameters
     public static void toPrint(Integer[] inputArray) {
         for (int element : inputArray) {
             System.out.printf("%s", element);
@@ -9,6 +12,7 @@ public class PrintArrayUC1 {
         System.out.println();
     }
 
+    //Method Overloading
     public static void toPrint(Double[] inputArray) {
         for (double element : inputArray) {
             System.out.printf("%s", element);
@@ -16,6 +20,7 @@ public class PrintArrayUC1 {
         System.out.println();
     }
 
+    //Method Overloading
     public static void toPrint(Character[] inputArray) {
         for (char element : inputArray) {
             System.out.printf("%s", element);
@@ -23,6 +28,7 @@ public class PrintArrayUC1 {
         System.out.println();
     }
 
+    //Method Overloading
     public static void toPrint(String[] inputarray) {
         for (String element : inputarray) {
             System.out.printf("%s", element);
@@ -36,9 +42,11 @@ public class PrintArrayUC1 {
         Character[] characters ={'@', '$', '*'};
         String[] strings = {"Manjunath S Belagavi"} ;
 
-        com.bridgelabz.UCPrograms.PrintArrayUC1.toPrint(integers);
-        com.bridgelabz.UCPrograms.PrintArrayUC1.toPrint(doubles);
-        com.bridgelabz.UCPrograms.PrintArrayUC1.toPrint(characters);
-        com.bridgelabz.UCPrograms.PrintArrayUC1.toPrint(strings);
+       com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(integers);                // toPrint(integers);
+        com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(doubles);                //toPrint(doubles);
+        com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(characters);            //toPrint(characters);
+        com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics.toPrint(strings);               // toPrint(strings);
+
+
     }
 }

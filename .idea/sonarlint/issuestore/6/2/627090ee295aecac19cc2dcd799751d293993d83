@@ -1,0 +1,26 @@
+
+J
+java:S37407"/Provide the parametrized type for this generic.(ÞžÀÒúÿÿÿÿ
+J
+java:S3740;"/Provide the parametrized type for this generic.(¾úÓƒÿÿÿÿÿ
+J
+java:S3740?"/Provide the parametrized type for this generic.(÷ þØÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ú›
+Y
+java:S1659">Declare "y" and all following declarations on a separate line.(ˆ‘ÀÈùÿÿÿÿ
+l
+java:S3457)"Q%n should be used in place of \n to produce the platform-specific line separator.(å‰©±ùÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(å‰©±ùÿÿÿÿ
+W
+java:S1659-"ADeclare "yInt" and all following declarations on a separate line.(á—”È
+[
+java:S1659/"@Declare "yFl" and all following declarations on a separate line.(°§ŠÁøÿÿÿÿ
+W
+java:S16591"ADeclare "yStr" and all following declarations on a separate line.(öÀôå
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+]	java:S1253"<This block of commented-out lines of code should be removed.(¨“ã›ûÿÿÿÿ8øú¯¼Å0
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ÆŠ™«
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÅÜ±¼Å0
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(’‡„Å8ÅÜ±¼Å0
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8¾þ±¼Å0
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(±…ñà8¾þ±¼Å0

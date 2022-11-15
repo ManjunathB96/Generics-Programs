@@ -1,6 +1,6 @@
 package com.bridgelabz.gnerics.UC.Maximum;
 
-public class IntegersUC1 {
+public class IntegersMaxUC1 {
 
     public static class MaximumTest<T extends Comparable<T>> {
         T x, y, z;

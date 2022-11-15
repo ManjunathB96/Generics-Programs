@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f60e44d-aae3-4d4f-bffc-e4ea32f9f597" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGenerics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bridgelabz/UCPrograms/PrintArrayWithGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/UCPrograms/PrintArrayUC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/UCPrograms/PrintArrayWithOutGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/UCPrograms/PrintArrayUC2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/gnerics/UC/Maximum/IntegersUC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/gnerics/UC/Maximum/IntegersMaxUC1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +39,20 @@
     <option name="showMembers" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PrintArrayUC2">
-    <configuration name="FloatMaxUC2$MaximumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.gnerics.UC.Maximum.FloatMaxUC2$MaximumTest" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bridgelabz.UCPrograms" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IntegersMaxUC1$MaximumTest">
+    <configuration name="IntegersMaxUC1$MaximumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.gnerics.UC.Maximum.IntegersMaxUC1$MaximumTest" />
       <module name="JavaGenerics" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMaxUC3$MaximumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.gnerics.UC.Maximum.StringMaxUC3$MaximumTest" />
+    <configuration name="PrintArrayWithOutGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UCPrograms.PrintArrayWithOutGenerics" />
       <module name="JavaGenerics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bridgelabz.gnerics.UC.Maximum.*" />
+          <option name="PATTERN" value="com.bridgelabz.UCPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntegersMaxUC1$MaximumTest" />
+        <item itemvalue="Application.PrintArrayWithOutGenerics" />
         <item itemvalue="Application.PrintArrayUC2" />
         <item itemvalue="Application.PrintArrayUC1" />
         <item itemvalue="Application.PrintArray" />
-        <item itemvalue="Application.StringMaxUC3$MaximumTest" />
-        <item itemvalue="Application.FloatMaxUC2$MaximumTest" />
       </list>
     </recent_temporary>
   </component>
